@@ -17,6 +17,12 @@ export default class ArticleContainer extends Component {
         <h2>Header</h2>
         <h3>Subheader</h3>
         <MainContent />
+        <div className="mixed-content">
+          <MainContent />
+          <h4>Image</h4>
+          <h4>Image</h4>
+          <MainContent />
+        </div>
       </div>
     );
   }

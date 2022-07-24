@@ -25,3 +25,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+.mixed-content {
+  width: 90%;
+  height: 30%;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
