@@ -1,0 +1,9 @@
+.nav-button {
+  display: flex;
+  width: 90%;
+  height: 5%;
+}
+
+.nav-button > button {
+  flex: 1;
+}
