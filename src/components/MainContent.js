@@ -12,7 +12,7 @@ export default class MainContent extends Component {
   render() {
     return (
       <div className="main-content">
-        <h4>Main Content</h4>
+        <p>Main content</p>
       </div>
     );
   }

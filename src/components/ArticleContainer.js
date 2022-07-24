@@ -1,7 +1,8 @@
 import { Component } from "react";
 
-import "../styles/app.css";
+import "../styles/article-container.css";
 import MainContent from "./MainContent";
+import ArticleButton from "./ArticleButton";
 
 export default class ArticleContainer extends Component {
   constructor(props) {
@@ -23,6 +24,8 @@ export default class ArticleContainer extends Component {
           <h4>Image</h4>
           <MainContent />
         </div>
+        <MainContent />
+        <ArticleButton />
       </div>
     );
   }
