@@ -1,4 +1,14 @@
 .article-button {
-  background-color: red;
+  display: flex;
+  width: 30%;
+  height: 5%;
+  cursor: pointer;
+}
+
+.article-button > button {
+  flex: 1;
   border-radius: 60px;
+  border: 1px solid gray;
+  background-color: lightgray;
+  transform: scale(2);
 }
